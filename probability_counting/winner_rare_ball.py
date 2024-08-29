@@ -3,7 +3,7 @@ A & B are alternately picking balls from a bag without replacement. The bag has 
 
 Solution: 
    Draw out the event tree, you will see that the probability of the winning round being any of the possible k+1 rounds is actually 1/k+1, i.e. a uniform distribution.
-   This is evidenced by the output provided below.
+   This is evidenced by the output provided below.  From the fact that the distribution is uniform regardless of k, we see that when k is even, there k+1 possible round which is an odd number, and hence the 1st player is more likely to win.  When k is odd, the probability of winning is the same for both players.
 '''
 import random
 
