@@ -10,6 +10,7 @@ The theoretical probability can be derived as follows:
 
     The simulation first connects endpoints in the same piece and then proceeds to shuffle the ends and connect them randomly.
 
+    NOTE: We must be careful to consider 2 parallel edges between the same two vetices.  This is the case of a single piece of the original (n) spaghetti pieces that forms a single loop.
 '''
 
 import random
